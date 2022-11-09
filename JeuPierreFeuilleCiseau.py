@@ -3,13 +3,13 @@ import random
 COUP = ("Pierre", "Feuille", "Ciseaux")
 #Demande au joueur si il veut jouer
 while input("Voulez vous jouez ? (oui/non): ").lower() != "non":
- 
+    #Titre du jeu
     print("\n------------------------------------")
     print("Le jeu du: Pierre - Feuille - Ciseaux")
     print("------------------------------------\n")
- 
+    #Demander au joueur de choisir un chiffre correspondan
     a = int(input("Choisissez un chiffre:\n0: Pierre\n1: Feuille\n2: Ciseaux\n-> "))
-    b = choice(range(3))
+    b = random.choice(range(3))
  
     print("\n{} VS {}".format(COUP[a], COUP[b]))
     if a == b:

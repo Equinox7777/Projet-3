@@ -61,3 +61,4 @@ def input():
         #alors on en choisi un autre
 #Si le caractere est identique au gagnant
     #Alors on gagne
+
