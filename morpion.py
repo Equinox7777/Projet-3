@@ -34,7 +34,7 @@ message.grid(row = 0, column = 0, columnspan=2, padx=3, pady=3, sticky = W+E)
 #Création des boutons
 bouton_quitter = Button(fen, text='Quitter', command=fen.destroy)
 bouton_quitter.grid(row = 2, column = 1, padx=3, pady=3, sticky = S+W+E)
-bouton_reload = Button(fen, text='Recommencer', command=fen.event_generate)
+bouton_reload = Button(fen, text='Recommencer', command=fen.destroy)
 bouton_reload.grid(row = 2, column = 0, padx=3, pady=3, sticky = S+W+E)
 
 
