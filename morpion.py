@@ -12,7 +12,8 @@ drapeau = True
 n = 1 
 
 
-#Définition des Fonctions
+#Définition des Fonctions :
+
 def afficher(event) :
 
     global drapeau, cases, n
@@ -74,7 +75,7 @@ def gagner(a):
     elif a == -1:
         showinfo(title='Victoire !',message='Les ronds ont gagné !')
     elif a == 0:
-        showinfo(title='Egalité...',message='Match nul...')
+        showinfo(title='Egalité....',message='Match nul...')
     return 9
 
 
