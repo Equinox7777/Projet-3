@@ -1,2 +1,2 @@
-# Compréhension du Pseudo-Code par le biais d'un Pierre Feuille Ciseaux 
+# Initiation à l'algorithmique avec Python
 *réalisé par Lilian VIENNET G.Tech1*
